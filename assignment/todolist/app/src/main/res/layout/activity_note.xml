@@ -16,6 +16,15 @@
         android:padding="4dp"
         android:textColor="#1e1e1e" />
 
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="选择处理级别"
+        android:id="@+id/priority"
+        android:entries="@array/priority"
+        android:spinnerMode="dialog"
+        />
+
     <Button
         android:id="@+id/btn_add"
         android:layout_width="match_parent"
